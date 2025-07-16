@@ -1,0 +1,16 @@
+/* nav{
+    Define el color de fondo del elemento
+    background: steelblue;
+}
+
+h2{
+    color: blue;
+} */
+
+h2 {
+    color: steelblue;
+}
+
+nav {
+    border: 2px solid steelblue;
+}
