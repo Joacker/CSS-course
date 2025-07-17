@@ -7,10 +7,49 @@ h2{
     color: blue;
 } */
 
+/* *{
+    color: red;
+} */
+
 h2 {
     color: steelblue;
 }
 
-nav {
-    border: 2px solid steelblue;
+.borde {
+    border: 2px solid black;
+}
+
+.titulo {
+    text-align: center;
+    color: tomato;
+}
+
+.titulo-borde {
+    border: 1px solid black;
+}
+/* Solo puede haber un elemento con este ID */
+#section {
+    border: 1px solid green;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.😁{
+    color: darkblue;
+}
+
+.😂 {
+    border: 1px solid black;
+}
+
+/* Para modificar un atributo hay que usar corchetes */
+/* quitar subrayado */
+[href]{
+    text-decoration: none;
+}
+
+[href="https://alexcgdesign.com/inicio"] {
+    color: red;
 }
