@@ -53,3 +53,16 @@ section h2 {
 [href="https://alexcgdesign.com/inicio"] {
     color: red;
 }
+/* Sirve para enlaces que comienzan con "hsttps" */
+[href^="hsttps"] {
+    color: green;
+}
+
+[href$="org"] {
+    background: steelblue;
+    color: white;
+}
+
+[href*="alex"] {
+    background: darksalmon;
+}

@@ -1,0 +1,45 @@
+h2, h3 {
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+/* Para hijos directos */
+/* .contenedor > p {
+    color: lightblue;
+} */
+
+/* .contenedor p{
+    color: lightcoral;
+} */
+
+/* Para ser mas especificos */
+/* nav.contenedor.titulo {
+    background: steelblue;
+} */
+
+/* --------------------------------------- */
+/* <nav class="contenedor titulo">
+    <p>Hola estoy en un nav con clase contenedor</p> 
+</nav> */
+/* nav .contenedor {
+    background: steelblue;
+} */
+/* --------------------------------------- */
+/* quitar subrayado */
+/* .contenedor a {
+    text-decoration: none;
+    color: firebrick;
+} */
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2+p{
+    color: gold;
+}
+
+h3~p{
+    color: indigo;
+}
