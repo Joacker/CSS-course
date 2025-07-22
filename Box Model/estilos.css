@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.box{
+    /* border: 1px solid black;
+    padding: 10px;
+    margin: 10px; */
+    /* El width representa el ancho de un elemento */
+    width: 200px;
+    /* El height representa el alto de un elemento */
+    height: 100px;
+    /* Dichas propiedades son requeridas si un elemento no tiene contenido  */
+    /* Si un elemento no tiene un contenido por defecto no existe */
+}
+/* cabe recalcar que tambien se pueden sobreponer elementos con respecto a los margenes que son
+ubicasciones especificas */
+/* Si deseamos que todos los margins sean iguales, entonces colocamos solamente margin y se
+le asigna un valor */
+.box1{
+    /* width: 200px; */
+    background: steelblue;
+    /* Se encarga de dar un margen hacia arriba al elemento */
+    margin-top: 50px;
+    /* Se encarga de dar un margen hacia abajo al elemento */
+    /* margin-bottom: 40px; */
+    /* Se encarga de dar un margen hacia la izquierda al elemento */
+    /* margin-left: 30px; */
+    /* Se encarga de dar un margen hacia la derecha al elemento */
+    /* margin-right: 25px; */
+    /* margin: 100px; */
+    /* Tambien uno puede colocar las 4 dimensiones del objeto dentro del mismo parametro de margin 
+    el orden respectivo es: top right bottom left */
+    /* margin: 50px 30px 25px 30px; */
+    /* En caso que sean 2 el primero es para el eje vertical y el segundo para el eje horizontal */
+    /* margin: 40px 80px; */
+    /* En caso que uno solo quiera una posicion especifica las demas se dejan en 0 */
+    margin: 50px 0 0 0;
+}
+
+.box2{
+    background: tomato;
+}
