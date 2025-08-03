@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Arial';
+}
+
+.card{
+    width: 300px;
+    padding: 0 0 30px 0;
+    margin: 30px auto;
+    border-radius: 5px;
+    /* Son prefijos para especificarlos en ciertos navegadores
+    moz de mozilla y webkit que es para safari y chrome */
+    /* -webkit-box-shadow: 5px 6px 11px 0px rgba(20, 18, 20, 0.75);
+    -moz-box-shadow: 5px 6px 11px 0px rgba(20, 18, 20, 0.75); */
+    box-shadow: 5px 6px 11px 0px rgba(20, 18, 20, 0.75);
+}
+
+.img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    color: #A60909;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+.copy{
+    text-align: center;
+}
+
+.cta{
+    display: block;
+    background: #A60909;
+    padding: 13px 0;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.goku{
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+    /* drop-shadow(h-offset v-offset blur-radius color) */
+    filter: drop-shadow(0px 0px 20px gold);
+
+}
+
+.spiderman{
+    /* drop-shadow(h-offset v-offset blur-radius color) */
+    filter: drop-shadow(0px 0px 20px crimson);
+
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlaces{
+    /* Para trabajar con elementos enlinea y a la vez bloque */
+    /* Para centrar se debe de tener un width definido 
+    y a para que se mantenga el desiplay: block */
+    /* display: inline-block; */
+    display: inline-block;
+    /* width: 100px; */
+    /* display: block; */
+    text-decoration: none;
+    background: crimson;
+    color: white;
+    /* margin: 0 auto; */
+    padding: 30px 20px
+    /* width: 500px;
+    height: 300px; */
+}
+
+.block{
+    opacity: 0;
+    /* display: none; */
+}
+
+.header{
+    height: 400px;
+    background: crimson;
+    color: white;
+    border: 5px solid black;
+    font-family: Arial;
+    padding: 10px;
+    height: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+/* Es necesario hacer notar la especificidad para dar a entender que 
+elemento se a modificar */
+body>header>h2.title#title{
+    font-size: 40px;
+}
+/* En general mientras mas especifico sea, predomina mas */
+
+/* 
+usar specificity.keegan.st
+1000 - inline css
+100  - ID
+10   - Class Atributos
+1    - Elementos
+*/
+/* Al usar !important se rompe la cascada */
+
+.title{
+    font-size: 25px;
+    border: inherit;
+    padding: inherit;
+    font-family: Helvetica;
+    text-align: initial;
+    color: initial;
+    font-family: initial;
+}
